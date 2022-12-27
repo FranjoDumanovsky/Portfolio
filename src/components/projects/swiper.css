@@ -1,0 +1,119 @@
+.swiper {
+  width: 100%;
+  z-index: 20;
+}
+.swiper-wrapper {
+  align-items: center;
+  height: auto;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: auto;
+  /*   margin-bottom: calc(2rem + 4vw); */ /*ivan edit*/
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide .item:not(.swiper-slide.swiper-slide-active .item) {
+  opacity: 0.2;
+  scale: 0.9;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: calc(2rem + 4vw);
+}
+
+.swiper-reference .swiper-pagination {
+  visibility: hidden;
+}
+
+.swiper-pagination-bullet {
+  width: 2rem;
+  height: 0.2rem;
+  border-radius: unset;
+  border-radius: 15px;
+  background-color: var(--light);
+}
+
+.swiper-pagination-bullet-active {
+  height: 0.3rem;
+}
+
+.number-pagination {
+  text-align: center;
+  font-size: 3.25rem;
+  color: #cccccc;
+  font-family: "Bebas Neue";
+}
+
+@media (min-width: 993px) {
+  .swiper-pagination-bullet {
+    width: 4rem;
+  }
+  .number-pagination {
+    font-size: 4.375rem;
+  }
+
+  .swiper-reference .swiper-pagination {
+    visibility: visible;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  margin-right: 1rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.swiper-button-prev {
+  background-image: url("../../assets/icons/chevron-left.svg") !important;
+  margin-left: 2rem;
+}
+
+.swiper-button-next {
+  background-image: url("../../assets/icons/chevron-right.svg") !important;
+  margin-right: 2rem;
+}
+
+@media (max-width: 993px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "";
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "";
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

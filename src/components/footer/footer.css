@@ -1,0 +1,94 @@
+.footer {
+  margin-top: var(--m-6);
+  position: relative;
+}
+.footer__social {
+  display: flex;
+  column-gap: 1.25rem;
+  margin-bottom: var(--m-2);
+}
+
+.footer__social-link {
+  color: var(--light);
+  cursor: pointer;
+  font-size: 1.325rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  display: inline-flex;
+}
+
+.footer__social-link:hover {
+  color: var(--accent);
+}
+
+.footer__cta-wrapper {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  width: max-content;
+}
+.footer__cta-wrapper:hover h1 span,
+.footer__cta-wrapper:hover .h1-footer-arrow span {
+  transform: translateX(0);
+}
+.footer__cta-wrapper:hover h1 span::before,
+.footer__cta-wrapper:hover .h1-footer-arrow span::before {
+  transform: translateX(0);
+}
+.footer__cta-wrapper:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--accent);
+  transform-origin: bottom right;
+  transition: transform 0.8s ease-out;
+}
+.footer__cta-wrapper:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footer__cta-wrapper .h1-footer-arrow {
+  transform: rotate(-45deg);
+  transform-style: preserve-3d;
+  font-size: 5vw;
+  color: var(--light);
+}
+.footer__cta-wrapper h1,
+.footer__cta-wrapper .h1-footer-arrow {
+  position: relative;
+  display: inline-block;
+  font-size: 5vw;
+  color: var(--light);
+  overflow: hidden;
+}
+.footer__cta-wrapper h1 span,
+.footer__cta-wrapper .h1-footer-arrow span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform 275ms ease;
+}
+.footer__cta-wrapper h1 span::before,
+.footer__cta-wrapper .h1-footer-arrow span::before {
+  display: inline-block;
+  content: attr(data-content);
+  color: var(--accent);
+  transform: translateX(100%);
+  transition: transform 275ms ease;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .footer__social-link {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+}
