@@ -17,7 +17,7 @@
 }
 .item .left .img {
   height: 450px;
-  width: 125%;
+  width: 145%;
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0px 0px 20px rgba(3, 3, 3, 0.65);
@@ -48,12 +48,12 @@
   transition: 0.6s ease transform;
 }
 .item .right {
-  flex: 1;
-  margin-left: -050px;
-  background-color: var(--light);
-  padding: var(--m-3) var(--m-2);
+  flex: 1.2;
+  margin-left: -40px;
+  background-color: var(--gray);
+  padding: var(--m-2) var(--m-2);
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(95, 95, 95, 0.37);
+  box-shadow: 0 0 20px rgba(218, 217, 217, 0.15);
   z-index: 2;
 }
 
@@ -62,7 +62,7 @@
   font-weight: 900;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
-  color: rgb(49, 49, 49);
+  color: var(--light);
   letter-spacing: 2px;
 }
 .item .right .project-sub-title {
@@ -71,13 +71,13 @@
   letter-spacing: 3px;
   margin-bottom: 1.3rem;
   font-weight: 100;
-  color: rgba(24, 24, 24, 0.25);
+  color: var(--light);
   margin-left: 1rem;
 }
 .item .right .project-desc {
-  color: var(--dark);
-  opacity: 0.44;
-  margin-bottom: 1rem;
+  color: var(--light);
+  opacity: 0.95;
+  margin-bottom: var(--m-0-75);
 }
 .item:nth-child(even) .right {
   margin-left: 0;
@@ -137,6 +137,9 @@
   .item .left .img {
     height: 550px;
     width: 120%;
+  }
+  .item .right {
+    flex: 0.8;
   }
 }
 

@@ -19,7 +19,7 @@
 }
 
 .contact__card {
-  background-color: var(--brown);
+  background-color: var(--gray);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 0.75rem;
