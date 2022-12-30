@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.95120eed.css",
-    "main.js": "/ReactPortfolio/static/js/main.cb286c89.js",
+    "main.css": "/ReactPortfolio/static/css/main.45a5b8e7.css",
+    "main.js": "/ReactPortfolio/static/js/main.486e49c0.js",
     "static/js/787.1ed0c42c.chunk.js": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mainImage.jpeg": "/ReactPortfolio/static/media/mainImage.d6f6cffc08a56ea1a0e4.jpeg",
     "static/media/ja.jpeg": "/ReactPortfolio/static/media/ja.0c023405375d6e58e403.jpeg",
     "static/media/mockupReve.png": "/ReactPortfolio/static/media/mockupReve.5fa218de1cb14f713f71.png",
-    "static/media/John-Cv.pdf": "/ReactPortfolio/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "static/media/CV_Franjo_Dumanovsky.pdf": "/ReactPortfolio/static/media/CV_Franjo_Dumanovsky.391b4380676fdc8c5540.pdf",
     "index.html": "/ReactPortfolio/index.html",
     "static/media/chevron-right.svg": "/ReactPortfolio/static/media/chevron-right.2b6a2c1eda22bdc21f53.svg",
     "static/media/chevron-left.svg": "/ReactPortfolio/static/media/chevron-left.df4c0ff4885c8453b67a.svg",
-    "main.95120eed.css.map": "/ReactPortfolio/static/css/main.95120eed.css.map",
-    "main.cb286c89.js.map": "/ReactPortfolio/static/js/main.cb286c89.js.map",
+    "main.45a5b8e7.css.map": "/ReactPortfolio/static/css/main.45a5b8e7.css.map",
+    "main.486e49c0.js.map": "/ReactPortfolio/static/js/main.486e49c0.js.map",
     "787.1ed0c42c.chunk.js.map": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95120eed.css",
-    "static/js/main.cb286c89.js"
+    "static/css/main.45a5b8e7.css",
+    "static/js/main.486e49c0.js"
   ]
 }
