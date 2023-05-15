@@ -5,4 +5,4 @@ I've made this portfolio with ReactJS Library in order to practice react. Now it
 
 <br>
 <br>
-<a href="https://quelorel.github.io/Portfolio/">Link to the website.</a>
+<a href="https://franjodumanovsky.github.io/Portfolio/">Link to the website.</a>
